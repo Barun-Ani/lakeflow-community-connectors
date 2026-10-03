@@ -1,0 +1,11 @@
+display_name: OpenWeatherMap
+
+connection:
+  parameters:
+    - name: api_key
+      type: string
+      required: true
+      description: >
+        API key used to authenticate with OpenWeatherMap.
+
+external_options_allowlist: "place_name,latitude,longitude"
